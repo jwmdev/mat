@@ -1,5 +1,5 @@
-# Massa Autostake tool (MAT)
-Massa Autostake Tool (MAT) is a tool that monitor your staking address and auto stake the received reward.
+# Massa Autostaking Tool (MAT)
+Massa Autostaking Tool (MAT) is a tool that monitor your staking address and auto stake the received reward.
 
 
 # Instructions
