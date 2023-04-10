@@ -1,0 +1,8 @@
+key: "put here massa secret key" #wallet secret key
+address: "put here massa address associated with the key" #wallet address
+intervals: 5 # balance check intervals in minutes [valid range is 1 and 60]. If entered value is not valid, the default value will be 30 minutes
+price: 100 # price of one roll
+host: "test.massa.net" # api url
+api: "api/v2"
+protocal: "https" # the protocal should eithe be http or https
+  
