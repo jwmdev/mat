@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   cron: ^0.5.1
-  massa: ^1.3.2
+  massa: ^1.3.0
   yaml: ^3.1.1
 
 dev_dependencies:
