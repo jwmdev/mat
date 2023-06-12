@@ -1,0 +1,16 @@
+[Unit]
+Description=MAT Service (instance %i)
+After=network.target
+Requires=network.target
+
+[Service]
+WorkingDirectory=/opt/mat/
+Type=simple
+ExecStart=/opt/mat/mat_linux
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=10
+
+
+[Install]
+WantedBy=multi-user.target
