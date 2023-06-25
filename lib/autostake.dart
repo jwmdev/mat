@@ -27,7 +27,7 @@ class Autostake {
     int rollCount = totolBalance ~/ price;
     if (rollCount > 0) {
       var output = await wallet.buyRolls(address, rollCount);
-      print('buying $rollCount: $output');
+      print('buying $rollCount roll(s): $output');
     } else {
       print('insufficient balance to buy rolls');
     }
